@@ -1,5 +1,6 @@
 import java.util.*;
 class Address {
+
 	String firstName;
 	String lastName;
 	String address;

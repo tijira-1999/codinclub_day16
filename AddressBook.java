@@ -11,6 +11,7 @@ public class AddressBook {
 		Address addr = new Address(firstName,lastName,address,city,state,zip,phone);
 		addressList.add(addr);
 	}
+
 	public void showAddress() {
 		for (int i=0;i<addressList.size();i++) {
 			Address ad = addressList.get(i);
